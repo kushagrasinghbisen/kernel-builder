@@ -3,9 +3,6 @@ name: Kernel CI
 on:
   workflow_dispatch:
     inputs:
-      device:
-          description: 'device codename (RMX3171)'
-          required: true
       repo:
           description: 'Kernel source link'
           required: true
