@@ -39,5 +39,5 @@ jobs:
         run: |
           git clone $REPO -b $BRANCH kernel 
           cd kernel
-            wget https://gist.githubusercontent.com/kushagrasinghbisen/008e7bbc2b94b6c121a33175b33bcd63/raw/14c34e004ce4d8216642fa9570446a782072aa7e/buildscript.sh
+            wget https://gist.githubusercontent.com/kushagrasinghbisen/008e7bbc2b94b6c121a33175b33bcd63/raw/9bafe4ad8af61af1a56325850f364209f1cd2928/buildscript.sh
             bash buildscript.sh
